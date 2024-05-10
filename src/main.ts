@@ -2,7 +2,8 @@ const hello: string = 'Hello';
 let showName: string = 'World';
 
 const handleClick = () => {
-    alert(`${hello}, ${showName}!`);
+    showName = showName + '!';
+    alert(`${hello}, ${showName}`);
 };
 
 // HTMLの要素を取得
