@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "debug",
+            "name": "run dev & chrome",
             "type": "node-terminal",
             "request": "launch",
             "command": "npm run dev",
@@ -13,7 +13,7 @@
             }
         },
         {
-            "name": "debug:client-side",
+            "name": "chrome",
             "type": "chrome",
             "request": "launch",
             "url": "http://localhost:5173"
