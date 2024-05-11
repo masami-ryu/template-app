@@ -1,6 +1,10 @@
 # HTML + CSS + TypeScript学習用
 
-## インストール
+## npmインストール
+```
+$ npm ci
+```
+または
 ```
 $ npm i
 ```
@@ -9,11 +13,13 @@ $ npm i
 $ npm run dev
 ```
 ### VSCodeのデバッグ機能を使う場合
-* Ctl+Shift+d ⇒ デバッグの開始
+- *F5キーを押下*
 
-or
+または
 
-* F5キー
+1. 左側のサイドバーの [実行とデバッグ] を選択
+2. [run dev & chrome] を選択
+3. [デバッグの開始] を押下
 
 ## ビルド
 ```
@@ -29,3 +35,5 @@ $ npm run preview
 ### 拡張機能をインストール
 * Prettier - Code formatter
 
+## 参考
+https://ja.vitejs.dev/
